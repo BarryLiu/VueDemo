@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+
+</head>
+<body>
+    <h1> 哈哈哈哈哈</h1>
+    <div id="root"> 
+        {{message}}
+        <hr/>
+         
+        <hr/>
+
+        <ul >
+            <li v-for="todo in todos" >
+               today  {{todo.text}}
+            </li>
+        </ul>
+
+    </div>    
+</body>
+
+<script>
+    var app = new Vue({
+        el:"#root",
+        //template:" helloworld ",
+        data:{
+            message:" vue !!"+new Date().toLocaleDateString(),
+
+            todos:[
+                {text:"learn java "},
+                {text:"learn vue "},
+                {text:"learn python "},
+                {text:"learn sql "}
+            ]
+        }
+    });
+
+</script>
+</html>
