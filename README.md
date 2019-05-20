@@ -20,7 +20,9 @@
 
 > vue-cli 脚手架
 >
-> 
+> npm install -g @vue/cli 安装vue-cli 工具
+
+
 
 1.  常用命令
 
