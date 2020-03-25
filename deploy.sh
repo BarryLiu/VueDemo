@@ -24,6 +24,6 @@ git commit -m 'deploy'
 
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:barryliu/VueDemo.git master
+git push -f git@github.com:BarryLiu/VueDemo.git master:gh-pages
 
 cd -
