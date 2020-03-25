@@ -1,0 +1,13 @@
+{
+  "name": "VueDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BarryLiu/VueDemo.git",
+  "author": "Barry <barry.lyj@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
